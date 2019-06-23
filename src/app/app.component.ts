@@ -16,7 +16,6 @@ export class AppComponent {
 
   search() {
     if (!this.isButtonEnabled) { return false; }
-    this.address = undefined;
     this.geocodeService.searchAddress(this.address).pipe(
       mergeMap(response => {
         if (response.status === 'OK') {

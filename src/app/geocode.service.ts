@@ -20,7 +20,7 @@ export class GeocodeService {
   searchAddress(text: string ): Observable<any> {
     console.log(`${this.url}${text}&key=${this.key}`);
     if (text && this.key) {
-    return this.http.get(`${this.url}${text}&key=${this.key}`).pipe(take(1));
+      return this.http.get(`${this.url}${text}&key=${this.key}`).pipe(take(1));
     }
   }
 

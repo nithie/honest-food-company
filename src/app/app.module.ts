@@ -24,7 +24,7 @@ import { HeaderComponent } from './header/header.component';
     GeocodeService,
     {
       provide: HTTP_INTERCEPTORS,
-      useFactory: AuthInterceptorService,
+      useClass: AuthInterceptorService,
       multi: true
     }
   ],

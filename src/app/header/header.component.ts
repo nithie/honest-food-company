@@ -13,8 +13,8 @@ export class HeaderComponent implements OnInit {
   ngOnInit() {
   }
 
-  authenticate() {
-    if (this.state === 'SignIn') {
+  authenticate(state) {
+    if (state === 'SignIn') {
       // login
     } else {
       // logout
