@@ -19,4 +19,8 @@ app.use(function(req, res, next) {
 
 app.use('/api/v1', indexRouter);
 
+app.get('*', function(req, res){
+    res.status('404');
+});
+
 module.exports = app;

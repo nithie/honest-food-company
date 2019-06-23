@@ -14,13 +14,17 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 #Features Implemented
 1. Api
 2. UI
+3. Unit test for client side service
+4. API authentication with Static key
 
 Due to time constraints not able to finish following items
 #Feature to be implemented
 
 1. Authentication system for login and API
-2. UI 
-3. Unit test for UI and API's
+2. Unit test for UI and API's
+3. Logging
+4. Creating singleton classes for Frontend and backend classes
+5. 
 
 
 

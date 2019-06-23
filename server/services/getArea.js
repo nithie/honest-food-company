@@ -16,6 +16,7 @@ function getArea(coordinates) {
 }
 
 function checkInsidePolygon(coordinates, polygonPath) {
+    
     let { lat, lng } = coordinates;
     let x = lat, y = lng;
     let inside = false;

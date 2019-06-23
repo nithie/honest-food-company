@@ -5,6 +5,7 @@
     <span class="label">Address</span>
     <span class="border"></span>
   </label>
-  <button class="btn btn-primary center" (click)="search()">Get my Location</button>
-  <p *ngIf="address" class="delivery-area">{{location}} Area</p>
+  <button id ="search" class="btn btn-primary center">Get Delivery Area</button>
+  <p *ngIf="address && !showLoading" class="delivery-area">{{location}}</p>
+  <app-loading *ngIf="showLoading"></app-loading>
 </div>
