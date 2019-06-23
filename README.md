@@ -9,7 +9,15 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 2. cd into the project folder
 
-3. Open the port `http://localhost:3000`
+3. Open the url `http://localhost:3000`
+
+# Steps to run develpoment server
+
+1.Run the comman `npm run dev-start`
+
+2.Open the url `http://localhost:4200`
+
+3.Any changes with client side code will be live reloaded, for server side changes rerun the command.
 
 #Features Implemented
 1. Api
@@ -23,8 +31,8 @@ Due to time constraints not able to finish following items
 1. Authentication system for login and API
 2. Unit test for UI and API's
 3. Logging
-4. Creating singleton classes for Frontend and backend classes
-5. 
+4. Creating singleton classes for Frontend and backend classes 
+5. Documentation
 
 
 
