@@ -1,0 +1,22 @@
+header {
+  height: 80px;
+  width: 100%;
+  background-color: #042d9e;
+  position: relative;
+
+  button {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+
+  .title {
+    position: absolute;
+    left: 20px;
+    top: 22px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: italic;
+  }
+}

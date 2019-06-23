@@ -1,4 +1,10 @@
-<input [(ngModel)]="address" type="text" required>
-<button (click)="search()">Search</button>
-
-{{location}}
+<app-header></app-header>
+<div class="search">
+  <label for="inp" class="inp">
+    <input [(ngModel)]="address" type="text" id="inp" placeholder="&nbsp;" required>
+    <span class="label">Address</span>
+    <span class="border"></span>
+  </label>
+  <button [disabled]="!isButtonEnabled()" class="btn btn-primary center"(click)="search()">Get my Location</button>
+  <p *ngIf="address" class="delivery-area">{{location}} Area</p>
+</div>

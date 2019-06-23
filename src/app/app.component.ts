@@ -15,6 +15,8 @@ export class AppComponent {
   constructor(private geocodeService: GeocodeService) {}
 
   search() {
+    if (!this.isButtonEnabled) { return false; }
+    this.address = undefined;
     this.geocodeService.searchAddress(this.address).pipe(
       mergeMap(response => {
         if (response.status === 'OK') {
@@ -27,6 +29,10 @@ export class AppComponent {
       if (data.status === 200) {
         this.location = data.data;
       }
-    })
+    });
+  }
+
+  isButtonEnabled(): boolean {
+    return this.address && this.address.length;
   }
 }
