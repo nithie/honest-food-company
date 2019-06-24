@@ -28,10 +28,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Due to time constraints not able to finish following items
 #Feature to be implemented
 
-1. Authentication system for login and API
+1. Authentication system for login and API with JWT tokens
 2. Unit test for UI and API's
 3. Logging
 4. Creating singleton classes for Frontend and backend classes 
+5. Front route and route gaurd.
 5. Documentation
 
 
