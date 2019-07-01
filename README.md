@@ -9,7 +9,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 2. cd into the project folder
 
-3. Open the url `http://localhost:3000`
+3. Run npm start.
+
+4. Open the url `http://localhost:3000`
 
 # Steps to run develpoment server
 
